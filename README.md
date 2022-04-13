@@ -12,7 +12,7 @@ In this model the energy is expressed as:
 Where ![](https://latex.codecogs.com/gif.latex?s_%7Bi%7D) can be +1 or -1, N is the total number of spins, J is a copuling constant and can take positive or negative values. If J>0 the spins line up and at low temperatures they all point in the same direction. As the temperature increases, the thermal agitation ends up defeating the coupling between spins and the spins tend to point randomly. B is the external magnetic field that we will consider 0.
 
 Our 2D lattice has the next configuration
-
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/spin.png?raw=true)
 
 We want to calculate different magnitudes of the system, the energy, magnetization, specific heat and magnetic susceptibility.
 
