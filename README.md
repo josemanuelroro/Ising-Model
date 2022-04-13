@@ -103,6 +103,12 @@ If we choose the option to show the simulation to see how the thermalization of 
 Next we will show the results of the average values of the magnitudes.
 ![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/result.png?raw=true)
 
-|Input Parameters|
-|----------------|
-|prueba|20|
+|Input Parameter|Value|
+|----------------|-----|
+|Rows |20|
+|Columns|20|
+|Initial T|0.5|
+|Final T|5|
+|T step|0.01|
+|Thermalization|90000|
+|MC Iterations|100000|
