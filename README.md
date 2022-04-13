@@ -112,3 +112,9 @@ Next we will show the results of the average values of the magnitudes.
 |T step|0.01|
 |Thermalization|90000|
 |MC Iterations|100000|
+
+The table shows the input parameters that were used for the simulation. 100,000 MonteCarlo iterations were used for each value of T and of those iterations, 90,000 were thermalization iterations.
+Better results can be obtained by increasing the size of the system to reduce finite effects and reducing the size of the T step.
+## Conclusions
+
+We have seen how temperature modifies the behavior of ferromagnetic systems causing them to lose their permanent dipoles and therefore their magnetic properties. Although the ising model explains second-order phase transitions, it fails to predict the value of the temperature at which it occurs.
