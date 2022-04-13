@@ -72,15 +72,19 @@ As we said at the beginning at low temperature all the spins are aligned towards
 If we want our problem to be faithful to physical reality, we cannot start calculating the expected values of the magnitudes we want directly. When we increase the temperature, we have to wait for the system to reach a "steady" state for that temperature, this is what we call thermalization.
 For example, let us consider that we take an initial configuration of spin in which all are aligned in the same direction, we know that this configuration is only valid at low temperatures. However we take this configuration for T>>0 and start calculating the expected values. We will find erroneous results since this configuration does not describe the system for T>>0 for this temperature the spins would be randomly distributed. Therefore, we have to wait for the system to thermalize before calculating anything.
 
+## Program
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/chess.PNG?raw=true)
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/random.PNG?raw=true)
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/fund.PNG?raw=true)
 
-![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/chess.png?raw=true)
+The previous images show the initial states that we can select in our program.
 
+In the ising.py program we will select the input parameters of our problem. Once these parameters have been chosen, this program will call the Fortran ising.f90 program, which will be the one that performs all the calculations.
+The ising.f90 program uses the mt19937.f90 random number generator.
+Once all the calculations are done, the ising.py program will show the state we initially chose and the final state at the given temperature.
+It will also show the energy, magnetization, specific heat and magnetic susceptibility.
+If we choose the option to show the simulation to see how the thermalization of the system occurs, it will also show it for the last calculated temperature (not recommended if the temperature step is very small)
 
-
-
-
-
-
-
-![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/random.png?raw=true)
-![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/fund.png?raw=true)
+## Results
+Next we will show the results of the average values of the magnitudes.
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/resultados.PNG?raw=true)
