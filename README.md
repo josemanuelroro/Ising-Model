@@ -104,3 +104,5 @@ Next we will show the results of the average values of the magnitudes.
 ![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/result.png?raw=true)
 
 |Input Parameters|
+|----------------|
+|prueba|20|
