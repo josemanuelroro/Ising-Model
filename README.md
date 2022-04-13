@@ -71,3 +71,16 @@ As we can see, although the energy of a state when turning the spin is greater t
 As we said at the beginning at low temperature all the spins are aligned towards the same direction, as the temperature increases the thermal agitation causes the spins to begin to reorder randomly.
 If we want our problem to be faithful to physical reality, we cannot start calculating the expected values of the magnitudes we want directly. When we increase the temperature, we have to wait for the system to reach a "steady" state for that temperature, this is what we call thermalization.
 For example, let us consider that we take an initial configuration of spin in which all are aligned in the same direction, we know that this configuration is only valid at low temperatures. However we take this configuration for T>>0 and start calculating the expected values. We will find erroneous results since this configuration does not describe the system for T>>0 for this temperature the spins would be randomly distributed. Therefore, we have to wait for the system to thermalize before calculating anything.
+
+
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/chess.png?raw=true)
+
+
+
+
+
+
+
+
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/random.png?raw=true)
+![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/fund.png?raw=true)
