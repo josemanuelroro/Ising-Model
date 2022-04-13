@@ -26,6 +26,20 @@ The energy as we see earlier is expressed as:
 
 ![](https://latex.codecogs.com/gif.latex?E%3D-J%5Csum_%7B%3Cij%3E%7D%5E%7BN%7Ds_%7Bi%7Ds_%7Bj%7D)
 
+In the last graph, a sudden change in the behavior of the system is observed when reaching a certain temperature. At this temperature we see how the specific heat and susceptibility reach a maximum.
+The energy increases with temperature as expected since by heating the system we are giving it energy
+The amgnetization we see that at low temperature it tends to a single value indicating that the spins are all aligned in the same direction, as the temperature increases the agitation ends up disordering the spins.
+
+|Input parameters|
+|----------------|
+|Rows|20|
+|Columns|20|
+|Initial T|0.5|
+|Final T|5|
+|T step|0.01|
+|Thermalization|90000|
+|MC Iterations|100000|
+
 To calculate the specific heat and magnetic susceptibility we must make use of statistical physics. In the canonical essemble, both magnitudes are defined as follows.
 
 
@@ -88,3 +102,5 @@ If we choose the option to show the simulation to see how the thermalization of 
 ## Results
 Next we will show the results of the average values of the magnitudes.
 ![alt text](https://github.com/josemanuelroro/Ising_model/blob/main/result.png?raw=true)
+
+|Input Parameters|
